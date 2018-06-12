@@ -1,0 +1,55 @@
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .bodytkp {
+        background-origin: content-box;
+        background-image: url('../../img/Background.jpg');
+        background-size:cover;
+        background-position: center center;
+    }
+    .scratchpad{
+        width: 140px;
+        height: 140px;
+    }
+    #scratchpad-container {
+        margin: 0 auto;
+        /* border: solid 1px; */
+        width: 600px;
+        position: relative;
+        background-image: url('../../img/Raspadinha.png');
+        background-repeat: no-repeat;
+        height:600px;
+        background-position: center center;
+        background-size: 600px;
+    }
+    #raspadinha {
+        position: absolute; 
+        bottom: 138px; 
+        right: 79px;
+    }
+    .msg{
+        /* border: solid 1px; */
+        width: 350px;
+        position:relative;
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bold; 
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
+        line-height: 19px;
+        color: #fff;
+        margin: 250px auto;
+        float: left;
+    }
+    #balloon01 {
+        position:absolute;
+        right:-120px;
+        top: -200px;
+        /* border: solid 1px; */
+        display: block;
+    }
+    #balloon02 {
+        width:50%;
+        position:absolute;
+        right:-50px;
+        bottom: -250px;
+    }
+}

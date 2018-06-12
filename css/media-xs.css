@@ -1,0 +1,82 @@
+@media (min-width: 376px) and (max-width: 425px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xs.jpg') no-repeat fixed center top;
+    }
+
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_xs.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+        position: absolute !important;
+        border-radius: 20px;
+        max-width: 350px;
+        top: 490px;
+        left: 40px;
+        right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .box p {
+        font-size: 15px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .conteudo-a {
+        margin-top: 10px;
+        visibility: hidden;
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+    }
+
+    .aux {
+        margin-top: -100px !important;
+    }
+
+    .skills-wheel {
+        /*display: none;*/
+        height: 330px !important;
+        width: 330px !important;
+    }
+
+    .skills-wheel .btn {
+        background: #3f661d url("../img/gire-130.png") no-repeat center center !important;
+        height: 130px !important;
+        left: 46% !important;
+        top: 46% !important;
+        width: 130px !important;
+    }
+
+    .wheel li {
+        font-size: 1rem !important;
+        height: 50% !important;
+        left: 65% !important;
+        line-height: 0 !important;
+        list-style: none !important;
+        margin: 0 0 0 -106px !important;
+        position: absolute !important;
+        -webkit-transform-origin: center bottom !important;
+        -moz-transform-origin: center bottom !important;
+        -ms-transform-origin: center bottom !important;
+        -o-transform-origin: center bottom !important;
+        transform-origin: center bottom !important;
+        top: 0 !important;
+        width: 39.552238806% !important;
+    }
+
+    .wheel li img {
+        width: 98% !important;
+    }
+}

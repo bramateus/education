@@ -1,0 +1,54 @@
+@media (min-width: 1px) and (max-width: 320px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xsss.jpg') no-repeat fixed center top;
+        width: 90%;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_xs.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+
+        position: absolute !important;
+
+        border-radius: 20px;
+        max-width: 370px;
+
+        top: 320px;
+        left: 30px;
+        right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .box p {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .conteudo-a {
+        margin-top: 15px;
+        visibility: hidden;
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 30px;
+    }
+
+    button {
+        font-size: 14px !important;
+    }
+
+    .skills-wheel {
+        display: none;
+    }
+}

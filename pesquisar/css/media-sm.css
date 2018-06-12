@@ -1,0 +1,61 @@
+@media (min-width: 426px) and (max-width: 767px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg-xs.png') no-repeat center top;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_fundo_sm.jpg') no-repeat center top !important;
+    }
+ .box {
+        border-radius: 20px;
+        max-width: 70%;
+        margin: 0 auto;
+        position: inherit;
+        margin-top: 90%;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .box p {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .conteudo-b {
+        margin: 90px 0 20px 0;
+        width: 70%;
+     
+    }
+
+    
+   .conteudo-tkp-a {
+        margin-top: 10px;
+
+    }
+
+    .conteudo-tkp-b {
+         margin-top: 20px;
+    }
+
+    .conteudo-tkp-c {
+         margin-top: 40px;
+         width: 25%;
+    }
+
+     .folga{height: 100px;}
+}

@@ -1,0 +1,51 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_mdd.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        border-radius: 20px;
+        max-width: 340px;
+        margin-top: 80px;
+        right: 30px;
+    }
+
+    .box p {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-top: 550px;
+        margin-left: 150px !important;
+        margin-right: 0 !important;
+        width: 70%;
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+    }
+
+    .skills-wheel {
+        top: 10px;
+    }
+
+    .ardono {
+        background: transparent url("../img/borda-roleta.png");
+        left: 3%;
+        top: 10px;
+    }
+
+}
