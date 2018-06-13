@@ -1,6 +1,7 @@
 <?php
 require_once('includes/config.php');
 
+
 /*$updatecamp   = "UPDATE landingpage_campaign SET campanha_num_clicks = :campanha_num_clicks WHERE campanha_id = :campanha_id";
 $resultupcamp = $PDO->prepare($updatecamp);
 $newclick     = $rowscamp['campanha_num_clicks'] + 1;
