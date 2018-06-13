@@ -1,9 +1,29 @@
 <?php
 require_once('includes/config.php');
 
+
 $desconto = $_REQUEST['vp'];
 $id = $_REQUEST['c'];
-$sql = "UPDATE matricula SET matriculaCurso_valorParcela = '" . $desconto . "' WHERE id_matricula = " . $id;
+
+
+
+
+
+$sql = "SELECT * FROM matricula WHERE matricula_codigo = 1 AND id_matricula = '". $id . "'";
+$query = mysqli_query($sqlconex, $sql);
+// $contador = mysqli_num_rows($query);
+
+
+$row = $query->fetch_row();
+echo "<div>";
+var_dump($row[38]);
+echo "</div>";
+
+if (empty($row[38])) {
+
+
+
+$sql = "UPDATE matricula SET matriculaCurso_valorParcela = '" . $desconto . "' WHERE id_matricula = '". $id . "'";
 mysqli_query($sqlconex, $sql);
 
 $sql = "SELECT * FROM matricula WHERE id_matricula = " . $id;
@@ -70,3 +90,9 @@ if ($rowscamp['campanha_activecampaign'] == 1) {
     }
     $result = unserialize($response);
 }
+
+
+            }
+            else {
+                echo "nao faca nada";
+            }
