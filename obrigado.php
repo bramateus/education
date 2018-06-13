@@ -96,6 +96,7 @@ body {
         
       </script>
       
+  
 
 <input type="hidden" name="idmatricula" id="idmatricula" value="<?php echo $_REQUEST['c']; ?>">
     
